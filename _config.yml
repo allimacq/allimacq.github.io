@@ -1,0 +1,20 @@
+# Site settings
+author: Allison
+title: Code Episode
+header-img: img/home-bg.png
+email: allimacq@gmail.com
+copyright_name: Allison
+description: > # this means to ignore newlines until "baseurl:"
+  A Glimpse into Bootcamp
+baseurl: "" # the subpath of your site, e.g. /blog
+twitter_username: 
+github_username:  allimacq
+
+# Build settings
+markdown: kramdown
+highlighter: rouge
+permalink: pretty
+paginate: 5
+exclude: ["less","node_modules","Gruntfile.js","package.json","README.md"]
+
+gems: [jekyll-paginate, jekyll-feed]
